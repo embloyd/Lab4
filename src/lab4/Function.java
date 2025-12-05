@@ -1,4 +1,7 @@
 package lab4;
 
-public class Function {
+//интерфейс для преобразования значений
+@FunctionalInterface
+public interface Function<T, P> {
+    P apply(T value);
 }

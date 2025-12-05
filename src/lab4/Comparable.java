@@ -1,4 +1,6 @@
 package lab4;
 
-public class Comparable {
+public interface Comparable<T> {
+
+    int compare(T other);
 }

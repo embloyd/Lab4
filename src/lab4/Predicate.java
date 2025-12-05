@@ -1,4 +1,8 @@
 package lab4;
 
-public class Predicate {
+//интерфейс для проверки условий
+@FunctionalInterface
+public interface Predicate<T> {
+
+    boolean test(T value);
 }
