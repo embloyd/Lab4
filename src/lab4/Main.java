@@ -481,6 +481,7 @@ public class Main {
     }
 
 
+
     //Метод, который принимает коробку, извлекает значение и выводит его
     private static int extractAndPrint(Box<Integer> box) {
         if (box.isEmpty()) {
